@@ -1,0 +1,236 @@
+@media (max-width: 375px) {
+    /*Navbar*/
+    .navbar{
+        padding: 0 !important;
+    }
+    /*modal*/
+    .submitb{
+        margin-left: 160px !important;
+    }
+    .bannerimg{
+        background-position: 23%;
+    }
+    .bannertext {
+        display: block;
+        padding: 100px 0 0 30px !important;
+    }
+    .maintext::after{
+        font-size: 27px;
+    }
+    /*About Me*/
+
+    .bgimgo{
+        display: none;
+        }
+        .aboutme{
+        padding: 0 !important;
+        }
+        .containeraboutme .data{
+        padding: 0;
+        }
+
+    /*Skills*/
+    #skills{
+        padding: 0 !important;
+    }
+    .skill i{
+        font-size: 30px;
+        }
+    .widthi{
+        width:100%;
+        text-align: center;
+    }
+    .jquery{
+        display: flex;
+        justify-content: center;
+    }
+    .jqueryi{
+        width: 10% !important;
+    }
+    /*projects*/
+    .projects h5{
+        margin: 0 0 15px 0 !important;
+    }
+    /*contact*/  
+
+    #contact{
+        margin-bottom: 20px;
+    }
+    .contactimg{
+        margin-top: 25px;
+        display: block;
+    }
+    /*footer*/
+    footer h5{
+        margin-top: 26px;
+    }
+    footer ul{
+        text-align: start;
+        padding: 0 !important;
+    }
+    footer ul li{
+        margin: 8px !important;
+    }
+    footer ul li i{
+        font-size: 20px;
+    }
+
+    }
+    @media (min-width:375px){
+    /*Navbar*/
+    .navbar{
+        padding: 0 18px !important;
+    }
+    .bannerimg{
+
+        background-position: 23%;
+    }
+    .bannertext {
+        padding-top: 150px;
+        padding-left: 18px;
+        }
+    .maintext::after{
+        font-size: 30px;
+        width: 330px;
+    }
+    /*About Me*/
+    .bgimgo{
+        display: none;
+        }
+        .aboutme{
+        padding: 0 !important;
+        }
+        .containeraboutme .data{
+        padding: 0;
+        }
+    /*Skills*/
+    .skill i{
+        font-size: 40px;
+        }
+    .widthi{
+        width:100%;
+            text-align: center;
+        }
+    .jquery{
+        display: flex;
+        justify-content: center;
+    }
+    .jqueryi{
+        width: 10% !important;
+    }/*Projects*/
+    .projects{
+    height: 250px;
+    }
+
+    .projects img{
+        width: 50% !important;
+    }
+    /*contact*/
+    .contactimg img{
+        display: block;
+        margin-top: 25px;
+    }
+    #contact{
+        margin-bottom: 20px;
+    }
+    /*footer*/
+    footer h5{
+        margin-top: 26px;
+    }  
+    footer ul{
+    text-align: start;
+    }
+    footer ul li{
+        margin: 8px !important;
+    }
+    footer ul li i{
+        font-size: 20px;
+    }
+    }
+    @media(min-width:425px){
+    .bannertext {
+        padding-left: 33px; 
+        }
+    .maintext::after{
+        font-size: 35px;
+        width: 350px !important;
+    }
+
+
+    }
+    @media(min-width:576px){
+        /*About Me*/
+        .containeraboutme{
+            padding: 20px !important;
+        }
+        .containeraboutme .data{
+            padding: 10px 30px;
+            }
+        .maintext::after{
+            font-size: 45px;
+            width: 500px !important;
+        }
+
+    }
+    @media(min-width:768px){
+    .maintext::after{
+        font-size: 45px;
+        width: 600px !important;
+    }
+    .bannertext {
+        padding-left: 140px !important;
+        }
+
+    /*Skills*/
+    .jquery{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        padding: 0px !important;
+
+    }
+    .jqueryi{
+        width: 50% !important;
+    }
+    /*contact*/
+    .contactimg img{
+        display: none;
+    }
+    /*footer*/
+    footer h5{
+        margin-top: 0px;
+    }
+    .map iframe{
+        width: 310px;
+    }
+    footer ul{
+        text-align: center;
+    }
+
+
+
+    }
+    @media(min-width:992px){
+        /*banner*/
+        .bannertext {
+            padding-left: 210px;
+            }
+    /*About Me*/
+    .bgimgo{
+        display: block;
+        }
+    /*Skills*/  
+    .widthi{
+        width: 0%;
+        padding-right: 60px;
+    }
+    /*Footer*/
+    .map iframe{
+        width: 100%;
+    }
+
+    }
+    @media(min-width:1200px){
+
+
+    }

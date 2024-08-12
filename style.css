@@ -207,6 +207,7 @@ nav i{
   height: 10px;
   padding-bottom: 15px;
 }
+
 /*Footer*/
 footer{
   height: auto;
@@ -221,19 +222,22 @@ footer h5{
 .socialMedia li{
   display: inline-block;
   margin:0 20px;
-  width: 20px;
 }
 footer ul{
   padding: 0 !important;
   list-style: none;
   line-height: 30px;
 }
+.socialMedia ul i{
+padding: 5px 20px;
+}  
 .socialMedia ul{
   display: flex;
   justify-content: space-around;
 }
 .quicklinks li a{
   padding: 5px 20px;
+  transition-duration: 0.20s;
 }
 footer a{
   text-decoration: none;
@@ -243,9 +247,8 @@ footer a{
 }
 footer i{
   transition-duration: 0.20s;
-  padding: 4px 15px!important;
+
   display: inline-block;
-  padding: 5px 15px;
   border-radius: 7px;
 }
 footer i:hover, 

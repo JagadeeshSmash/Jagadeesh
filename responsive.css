@@ -20,14 +20,14 @@
     /*About Me*/
 
     .bgimgo{
-        display: none;
-        }
-        .aboutme{
-        padding: 0 !important;
-        }
-        .containeraboutme .data{
-        padding: 0;
-        }
+    display: none;
+    }
+    .aboutme{
+    padding: 0 !important;
+    }
+    .containeraboutme .data{
+    padding: 0;
+    }
 
     /*Skills*/
     #skills{
@@ -73,6 +73,9 @@
     }
     footer ul li i{
         font-size: 20px;
+    }
+    .map{
+        margin-top: 0px !important;
     }
 
     }
@@ -146,6 +149,9 @@
     footer ul li i{
         font-size: 20px;
     }
+    .map{
+        margin-top: 0px !important;
+    }
     }
     @media(min-width:425px){
     .bannertext {
@@ -180,6 +186,9 @@
     .bannertext {
         padding-left: 140px !important;
         }
+    .map{
+        margin-top: 20px !important;
+    }
 
     /*Skills*/
     .jquery{
@@ -206,6 +215,9 @@
     footer ul{
         text-align: center;
     }
+    .socialMedia ul i{
+        padding: 5px 10px;
+        }  
 
 
 

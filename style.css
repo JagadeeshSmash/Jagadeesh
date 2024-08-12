@@ -128,7 +128,8 @@ nav i{
   background-size: end;
   background-blend-mode: hard-light;
   color: white;
-  box-shadow: 1px 1px 4px rgb(37, 23, 74);
+  box-shadow: 5px 5px 12px rgb(0, 0, 0,0.1), -10px -10px 10px white;
+
   margin:10px ;
   padding: 0px;
   margin-top:10px ;
@@ -207,7 +208,6 @@ nav i{
   height: 10px;
   padding-bottom: 15px;
 }
-
 /*Footer*/
 footer{
   height: auto;
@@ -222,18 +222,20 @@ footer h5{
 .socialMedia li{
   display: inline-block;
   margin:0 20px;
+  width: 20px;
 }
 footer ul{
   padding: 0 !important;
   list-style: none;
   line-height: 30px;
-}
-.socialMedia ul i{
-padding: 5px 20px;
-}  
+} 
 .socialMedia ul{
+  
   display: flex;
   justify-content: space-around;
+}
+.socialMedia i{
+  padding: 0 !important;
 }
 .quicklinks li a{
   padding: 5px 20px;
@@ -247,7 +249,6 @@ footer a{
 }
 footer i{
   transition-duration: 0.20s;
-
   display: inline-block;
   border-radius: 7px;
 }

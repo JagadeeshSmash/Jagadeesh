@@ -1,0 +1,241 @@
+@media (max-width: 375px) {
+
+    /*modal*/
+    .submitb {
+        margin-left: 160px !important;
+    }
+.banner{
+    height: 60vh;
+}
+    .bannerimg {
+        background-position: 23%;
+    }
+
+    .bannertext {
+        display: block;
+        padding: 100px 0 0 30px !important;
+    }
+
+    .maintext::after {
+        font-size: 22px;
+        width: 300px;
+    }
+
+    /*About Me*/
+
+    .bgimgo {
+        display: none;
+    }
+
+    .aboutme {
+        padding: 0 !important;
+    }
+
+    /*Skills*/
+    #skills {
+        padding: 0 !important;
+    }
+
+    .skill i {
+        font-size: 30px;
+    }
+
+    .widthi {
+        width: 100%;
+        text-align: center;
+    }
+
+    .jquery {
+        display: flex;
+        justify-content: center;
+    }
+
+    .jqueryi {
+        width: 10% !important;
+    }
+
+    /*projects*/
+    .projects h5 {
+        margin: 0 0 15px 0 !important;
+    }
+
+    /*contact*/
+
+    #contact {
+        margin-bottom: 20px;
+    }
+
+    .contactimg {
+        margin-top: 25px;
+        display: block;
+    }
+
+    /*footer*/
+    footer h5 {
+        margin-top: 26px;
+    }
+
+}
+
+@media (min-width:375px) {
+    .bannerimg {
+
+        background-position: 23%;
+    }
+    .banner{
+        height: 60vh;
+    }
+
+    .bannertext {
+        padding-top: 150px;
+        padding-left: 18px;
+    }
+
+    .maintext::after {
+        font-size: 25px;
+        width: 330px;
+    }
+
+    /*About Me*/
+    .bgimgo {
+        display: none;
+    }
+
+    .aboutme {
+        padding: 0 !important;
+    }
+
+    /*Skills*/
+    .skill i {
+        font-size: 40px;
+    }
+
+    .widthi {
+        width: 100%;
+        text-align: center;
+    }
+
+    .jquery {
+        display: flex;
+        justify-content: center;
+    }
+
+    .jqueryi {
+        width: 10% !important;
+    }
+
+    /*Projects*/
+    .projects {
+        height: 250px;
+    }
+
+    .projects img {
+        width: 50% !important;
+    }
+
+    /*contact*/
+    .contactimg img {
+        display: block;
+        margin-top: 25px;
+    }
+
+    #contact {
+        margin-bottom: 20px;
+    }
+
+    /*footer*/
+    footer h5 {
+        margin-top: 26px;
+    }
+}
+
+@media(min-width:425px) {
+
+    .bannertext {
+        padding-left: 33px;
+    }
+
+    .maintext::after {
+        font-size: 30px;
+        width: 300px;
+    }
+}
+
+@media(min-width:576px) {
+
+    /*About Me*/
+    .containeraboutme {
+        padding: 20px !important;
+    }
+
+}
+
+@media(min-width:768px) {
+    .banner{
+        height: 100vh;
+    }
+    .bannertext {
+        padding-left: 140px !important;
+    }
+
+    .maintext::after {
+        font-size: 35px;
+        width: 600px;
+    }
+
+    /*Skills*/
+    .jquery {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        padding: 0px !important;
+
+    }
+
+    .jqueryi {
+        width: 50% !important;
+    }
+
+    /*contact*/
+    .contactimg img {
+        display: none;
+    }
+
+    /*footer*/
+    footer h5 {
+        margin-top: 0px;
+    }
+
+    .map iframe {
+        width: 310px;
+    }
+
+
+}
+
+@media(min-width:992px) {
+
+    /*banner*/
+    .bannertext {
+        padding-left: 210px;
+    }
+
+    /*About Me*/
+    .bgimgo {
+        display: block;
+    }
+
+    /*Skills*/
+    .widthi {
+        width: 0%;
+        padding-right: 60px;
+    }
+
+    /*Footer*/
+    .map iframe {
+        width: 100%;
+    }
+
+}
+
+@media(min-width:1200px) {}

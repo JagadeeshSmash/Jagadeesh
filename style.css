@@ -272,7 +272,10 @@ footer h5 {
   background-color: rgb(250, 126, 126);
   box-shadow: 0 0 20px rgb(244, 95, 95);
 }
-
+.socialMedia li:nth-child(7):hover {
+  background-color: rgb(61, 103, 165);
+  box-shadow: 0 0 20px rgb(78, 87, 216); 
+}
 footer ul {
   list-style: none;
   line-height: 30px;

@@ -263,16 +263,11 @@ footer h5 {
   background-color: #91f8b7;
   box-shadow: 0 0 20px #63f699;
 }
-
 .socialMedia li:nth-child(5):hover {
-  background-color: #8bcef3;
-  box-shadow: 0 0 20px #0077B5;
-}
-.socialMedia li:nth-child(6):hover {
   background-color: rgb(250, 126, 126);
   box-shadow: 0 0 20px rgb(244, 95, 95);
 }
-.socialMedia li:nth-child(7):hover {
+.socialMedia li:nth-child(6):hover {
   background-color: rgb(61, 103, 165);
   box-shadow: 0 0 20px rgb(78, 87, 216); 
 }

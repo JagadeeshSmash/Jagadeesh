@@ -4,9 +4,15 @@
     .submitb {
         margin-left: 160px !important;
     }
-.banner{
-    height: 60vh;
-}
+
+    .projects img {
+        width: 30% !important;
+    }
+
+    .banner {
+        height: 60vh;
+    }
+
     .bannerimg {
         background-position: 23%;
     }
@@ -56,7 +62,12 @@
 
     /*projects*/
     .projects h5 {
+        font-size: 16px;
         margin: 0 0 15px 0 !important;
+    }
+
+    .projects img {
+        width: 30% !important;
     }
 
     /*contact*/
@@ -82,7 +93,8 @@
 
         background-position: 23%;
     }
-    .banner{
+
+    .banner {
         height: 60vh;
     }
 
@@ -125,13 +137,14 @@
     }
 
     /*Projects*/
-    .projects {
-        height: 250px;
+    .projects img {
+        width: 30% !important;
+    }
+    .projects h5{
+        font-size: 16px;
+
     }
 
-    .projects img {
-        width: 50% !important;
-    }
 
     /*contact*/
     .contactimg img {
@@ -168,12 +181,18 @@
         padding: 20px !important;
     }
 
+    /*Projects*/
+    .projects img {
+        width: 40% !important;
+    }
+
 }
 
 @media(min-width:768px) {
-    .banner{
+    .banner {
         height: 100vh;
     }
+
     .bannertext {
         padding-left: 140px !important;
     }
